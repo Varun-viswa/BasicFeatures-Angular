@@ -1,0 +1,221 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+.col-md{
+  background: rgb(227, 235, 238);
+  border-color: lawngreen;
+}
+mat-grid-tile {
+  background: lightblue;
+}
+.example-container {
+  width: 400px;
+  max-width: 100%;
+  margin: 0 25px 25px 0;
+  display: inline-block;
+  vertical-align: top;
+    
+  }
+  
+  .example-list {
+    border: solid 1px #ccc;
+    min-height: 60px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+  }
+  
+  .example-box {
+    padding: 20px 10px;
+    border-bottom: solid 1px #ccc;
+    color: rgba(65, 19, 83, 0.87);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    cursor: move;
+    background:azure;
+    font-size: 14px;
+  }
+  
+  .cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .cdk-drag-placeholder {
+    opacity: 10;
+  }
+  
+  .cdk-drag-animating {
+    transition: transform 250ms cursor(0, 0, 0.2, 1);
+    color: brown;
+  }
+  
+  .example-box:last-child {
+    border: none;
+  }
+  
+  .example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cursor(0, 0, 0.2, 1);
+    
+}
+  
+.exampl-container{
+    font-size: 20px;
+    font-weight: bolder;
+    color: crimson;
+    padding: 50px;
+
+  }
+
+
+
+ngx-dropzone,
+.custom-dropzone {
+  margin: 20px;
+  padding: 10px;
+  width: 70%;
+  color: crimson;
+  font-size: smaller;
+}
+
+.custom-dropzone {
+	height: 250px;
+	background: #333;
+	color: #fff;
+	border: 15px outset rgb(133, 44, 168);
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+
+
+.container{
+  color: crimson;
+  padding: 50px;
+  margin: 0 25px 25px 0;
+  
+}
+
+.input-text {
+  display: inline;
+  margin: 0;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 10px;
+}
+
+
+.add-btn {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #da2e75;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.content {
+	display: flex;
+	margin: 32px auto;
+	padding: 0 16px;
+	max-width: 960px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-container {
+	display:table-cell;
+	margin-top: 10px;
+  padding: 20px;
+}
+
+ngb-carousel {
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+ngb-carousel img {
+  width: 100%;
+  outline: none;
+}
+
+ngb-carousel {
+  width: inherit;
+  height: inherit;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.carousel-item {
+  display: flex !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1.2s ease-in-out, visibility 1.2s;
+  z-index: -1;
+}
+
+.carousel-item.active{
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+.carousel-control-prev {
+   z-index: 20;
+}
+
+
+.carousel-control-next {
+   z-index: 20;
+}
+
+.carousel-indicators{
+  z-index: 20;
+}
+
+
+ngx-image-display {
+  width: 100%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+.samesizelabel {
+  color: blue;
+}
+
+.btn {
+  margin:2px;
+
+}
+
+.green {
+    background-color: green;
+    color: white;
+  }
+
+.top {
+  margin-bottom: 5%;
+}
+
+.bottom {
+  margin-top:7%
+}
+
+.hint {
+  color:darkslategrey;
+}
+
